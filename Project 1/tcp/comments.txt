@@ -1,0 +1,19 @@
+# Creating Socket
+# try:
+#     server_soc = socket.socket()
+# except socket.error as err:
+#     print("error occured while creating Socket " + str(err))
+
+# # Binding Scoket with host and port
+# try:
+#     print("Binding Socket to port 10000")
+#     server_soc.bind(("192.168.0.127", 10000))
+# except socket.error as err:
+#     print("error while binding socket to port "+str(err))
+
+
+
+//  Creating server soc in tcp
+# server_soc = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+# print("Binding Socket to port 10000")
+# server_soc.bind(("192.168.0.127", 10000))
